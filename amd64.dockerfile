@@ -10,7 +10,7 @@
 
     # :: install
         RUN apt-get update -y \
-                apt-get install postgresql-client -y
+                && apt-get install postgresql-client -y
 
     # :: docker -u 1000:0 (no root initiative)
         RUN find / -not -path "/proc/*" -user 1001 -exec chown -h -R 1000:0 {} \;
