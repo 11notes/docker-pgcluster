@@ -1,5 +1,5 @@
 # :: Header
-    FROM bitnami/postgresql-repmgr:11.10.0-debian-10-r26
+    FROM bitnami/postgresql-repmgr:11.11.0-debian-10-r75
 
 
 # :: Run
