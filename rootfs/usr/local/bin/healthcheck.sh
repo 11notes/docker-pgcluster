@@ -1,4 +1,4 @@
-#!/bin/ash
+#!/bin/bash
 DOCKER_HEALTH_PORT="5432"
 DOCKER_HEALTH_USER="postgres"
 
